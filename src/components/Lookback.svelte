@@ -109,16 +109,20 @@
         max-width: 42rem;
         margin: 0 auto;
         line-height: 2;
-        padding: 4rem 1rem;
+        padding: 4rem 0;
         font-weight: 500;
-        font-size: var(--16px);
+        font-size: var(--10px);
+        font-weight: bold;
     }
 
     @media (max-width: 640px) {
         .prose {
             margin-top: 5rem;
-            max-width: 24rem;
-            margin-left:2rem;
+            max-width: 26rem;
+            /* margin-left:2.2rem; */
+            padding: 4rem 0;
+            font-size: var(--15px);
+            font-weight: bold;
         }
     }
 

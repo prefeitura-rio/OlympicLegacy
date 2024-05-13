@@ -13,9 +13,9 @@
 
 <div class="container">
   <div class="title">
-    <h2 id="sem_elefantes">No white elephants</h2>
-		<h1 style="font-size:90px;font-weight:bold"></h1>
-    <h6 style="font-size:20px;">Exploring Nomadic Architecture at the Rio 2016 Olympics</h6>
+    <h2 id="sem_elefantes">Sem elefantes brancos</h2>
+		<!-- <h1 style="font-size:90px;font-weight:bold"></h1> -->
+    <h6 style="font-size:20px;">Explorando a Arquitetura Nômade nas Olimpíadas do Rio 2016</h6>
   </div>
 
   <!-- <div class="css-grid">
@@ -54,11 +54,18 @@
 	
 	#sem_elefantes {
 		padding-top: 8rem;
-		padding-bottom: 3rem;
+		padding-bottom: 1.5rem;
 	font-size: 3rem;
-	line-height: 4rem;
+	line-height: 2.8rem;
 }
 }
+
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+	.title {
+	height: 55vh;
+	}
+}
+
 
 /* .css-grid {
 	position: inherit;
@@ -318,26 +325,7 @@
 		font-size: 36px;
 		/* transition: all 0.5s; */
 	}
-	@container title (min-width: 275px) {
-		.book-cover h1 {
-			font-size: 40px;
-		}
-	}
-	@container title (min-width: 325px) {
-		.book-cover h1 {
-			font-size: 48px;
-		}
-	}
-	@container title (min-width: 375px) {
-		.book-cover h1 {
-			font-size: 56px;
-		}
-	}
-	@container title (min-width: 450px) {
-		.book-cover h1 {
-			font-size: 68px;
-		}
-	}
+	
 	.book-cover .byline {
 		font-family: var(--serif-display);
 		position: absolute;

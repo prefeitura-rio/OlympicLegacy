@@ -8,14 +8,14 @@
 	import YardsaleScrolly from "./Yardsale.scrolly.svelte";
 
     import f01_esquerda from "$images/esquerda/f01d.jpg";
-    import f02_esquerda from "$images/esquerda/f02b.jpg";
-    import f03_esquerda from "$images/esquerda/f03.jpg";
+    import f02_esquerda from "$images/esquerda/f03.jpg";
+    import f03_esquerda from "$images/esquerda/f02b.jpg";
     import f04_esquerda from "$images/esquerda/f04.jpg";
     import f05_esquerda from "$images/esquerda/f05.jpg";
 
     import f01_direita from "$images/direita/f01b.jpg";
-    import f02_direita from "$images/direita/f02.jpg";
-    import f03_direita from "$images/direita/f03.jpg";
+    import f02_direita from "$images/direita/f03.jpg";
+    import f03_direita from "$images/direita/f02.jpg";
     import f04_direita from "$images/direita/f04.jpg";
     import f05_direita from "$images/direita/f05.jpg";
   
@@ -59,10 +59,10 @@
         "Da Arena do Futuro foram aproveitados materiais como o breeze (fachada das arenas), divisórias e louças.",
         "",
         "",
-        "Dois, dos quatro ginásios previstos já foram inaugurados: o GET (Ginásio Experimental Tecnológico) José Mauro de Vasconcelos, em Bangu, e o GET Emiliano Galdino, em Santa Cruz.",
+        "Dois dos quatro ginásios previstos já foram inaugurados: o GET (Ginásio Experimental Tecnológico) José Mauro de Vasconcelos, em Bangu, e o GET Emiliano Galdino, em Santa Cruz.",
         "",
         "",
-        "As outras duas escolas, que estão sendo construídas no bairro de Campo Grande e Rio das Pedras, tem previsão de inauguração para o primeiro semestre deste ano.",
+        "As outras duas escolas, que estão sendo construídas no bairro de Campo Grande e Rio das Pedras, têm previsão de inauguração para o primeiro semestre deste ano.",
         "",
         "",
         "As unidades de ensino possuem o modelo de escola pública mais inovador do país, que segue a abordagem STEAM (Ciência, Tecnologia, Engenharia, Artes e Matemática).",
@@ -70,7 +70,9 @@
         "",
         "Esse modelo investe na qualificação da educação integral e desenvolve uma aprendizagem baseada em projetos, atividades mão na massa e recursos que promovam a cultura digital.",
         "",
-        ""
+        "",
+        "",
+        "nova-escola"
   ]
 
     export let id;
@@ -105,19 +107,38 @@
 
     
     $: scrollY, checkScrollY(scrollY);
+
     let legenda;
+    let legenda2;
+    let legendaEsquerda;
+    let legendaDireita;
 
 $: {
     if (currentImageEsquerda === f01_esquerda) {
-      legenda = 'Clique nos botões abaixo.';
+      legenda = 'Veja que fim levou a Arena do Futuro';
+      legenda2 = 'Clique nos botões abaixo';
+      legendaEsquerda = 'Arena do Futuro';
+      legendaDireita = 'Ginásio Experimental Tecnológico';
     } else if (currentImageEsquerda === f05_esquerda) {
       legenda = 'Arquibancadas';
+      legenda2 = 'Abaixo vemos as arquibancadas da Arena do Futuro. Elas foram concebidas numa estrutura de concreto pré-moldado que permite a montagem e desmontagem, assim como a estrutura metálica da cobertura. Esses elementos foram doados ao Estádio Luso-Brasileiro, de propriedade Portuguesa-RJ, na Ilha do Governador. A doação permitirá aumentar a capacidade de público do local que é de 5.044 para 16 mil espectadores.';
+      legendaEsquerda = 'Arena do Futuro';
+      legendaDireita = 'Estádio Luso-Brasileiro';
     } else if (currentImageEsquerda === f04_esquerda) {
       legenda = 'Fachada';
+      legenda2 = 'Na imagem abaixo vemos em destaque o brise que compõe a fachada da Arena do Futuro. Esse elemento permite a entrada de ventilação natural ao mesmo tempo que proporciona uma proteção da incidência solar. Os brises foram reaproveitados em quatro escolas (Ginásios Experimentais Tecnológicos), situadas nos bairros de Bangu, Campo Grande, Rio das Pedras e Santa Cruz.';
+      legendaEsquerda = 'Arena do Futuro';
+      legendaDireita = 'Ginásio Experimental Tecnológico';
     } else if (currentImageEsquerda === f03_esquerda) {
-      legenda = 'Drywall';
+      legenda = 'Divisórias';
+      legenda2 = 'As divisórias da Arena do Futuro são paredes internas dos ambientes, compostas por uma subestrutura metálica e um fechamento em gesso acartonado (drywall), permitindo assim que sua instalação seja feita por meio de encaixes e parafusos. Estas paredes foram reaproveitadas em quatro escolas (Ginásios Experimentais Tecnológicos), situadas nos bairros de Bangu, Campo Grande, Rio das Pedras e Santa Cruz.';
+      legendaEsquerda = 'Arena do Futuro';
+      legendaDireita = 'Ginásio Experimental Tecnológico';
     } else if (currentImageEsquerda === f02_esquerda) {
       legenda = 'Louças';
+      legenda2 = 'As louças dos banheiros da Arena do Futuro, como pias, privadas e mictórios, foram reaproveitados em quatro escolas (Ginásios Experimentais Tecnológicos), situadas nos bairros de Bangu, Campo Grande, Rio das Pedras e Santa Cruz.';
+      legendaEsquerda = 'Arena do Futuro';
+      legendaDireita = 'Ginásio Experimental Tecnológico';
     } else {
       legenda = 'legenda padrão';
     }
@@ -134,23 +155,41 @@ $: {
             <YardsaleScrolly words={scrolly1} container="scrolly1"  />
         {/if}
         {#if id == "illustration"}
+        <div class="legendas">
         <div class="legenda"> {legenda}</div>
+        {#if legenda2 == 'Clique nos botões abaixo' }
+        <div class="legenda2combotao"> 
+          <span>Clique nos botões &nbsp&nbsp </span>
+          <button data-tooltip="Botão" class="image-button-example">+</button>
+          <span>&nbsp &nbsp abaixo</span>
+        </div>
+        {:else}
+        <div class="legenda2"> {legenda2}</div>
+        {/if}
+       </div>
         <div class="container">
-           
             <div class="image-container">
                 <img class="img2_left" src={currentImageEsquerda} alt="img2_left" in:fade={{ delay: 0 }} out:fade />
+                <div class="primeira-imagem">
+                  <p style="display:flex;align-items:center">{legendaEsquerda}</p>
+                </div>
                <!--reseta / images iniciais-->
-                <button class="image-button" style="top: 68%; left: 63%;" on:click={() => (currentImageEsquerda = f01_esquerda) && (currentImageDireita = f01_direita)}>+</button>
+                <!-- <button data-tooltip="Clique nos botões" class="image-button" style="top: 68%; left: 63%;" on:click={() => (currentImageEsquerda = f01_esquerda) && (currentImageDireita = f01_direita)}>+</button> -->
                 <!--arquibancada-->
-                <button class="image-button" style="top: 53%; left: 40%;" on:click={() => (currentImageEsquerda = f05_esquerda) && (currentImageDireita = f05_direita)}>+</button>
+                <button data-tooltip="Arquibancadas" class="image-button" style="top: 53%; left: 40%;" on:click={() => (currentImageEsquerda = f05_esquerda) && (currentImageDireita = f05_direita)}>+</button>
                 <!--fachada-->
-                <button class="image-button" style="top: 65%; left: 10%;" on:click={() => (currentImageEsquerda = f04_esquerda) && (currentImageDireita = f04_direita)}>+</button>
+                <button data-tooltip="Fachada" class="image-button" style="top: 65%; left: 10%;" on:click={() => (currentImageEsquerda = f04_esquerda) && (currentImageDireita = f04_direita)}>+</button>
                 <!--drywall-->
-                <button class="image-button" style="top: 77%; left: 30%;" on:click={() => (currentImageEsquerda = f03_esquerda) && (currentImageDireita = f03_direita)}>+</button>
+                <button data-tooltip="Divisórias" class="image-button" style="top: 77%; left: 30%;" on:click={() => (currentImageEsquerda = f03_esquerda) && (currentImageDireita = f03_direita)}>+</button>
                <!--louças-->
-                <button class="image-button" style="top: 53%; left: 90%;" on:click={() => (currentImageEsquerda = f02_esquerda) && (currentImageDireita = f02_direita)}>+</button>
+                <button data-tooltip="Louças" class="image-button" style="top: 53%; left: 90%;" on:click={() => (currentImageEsquerda = f02_esquerda) && (currentImageDireita = f02_direita)}>+</button>
             </div>
+            <div class="image-container">
             <img src={currentImageDireita} alt="currentImage" in:fade={{ delay: 0 }} out:fade />
+            <div class="segunda-imagem">
+              <p style="display:flex;align-items:center">{legendaDireita}</p>
+          </div>
+          </div>
         </div>
         {/if}
     {/if}
@@ -158,25 +197,127 @@ $: {
 </section>
 
 <style>
+  .image-button:hover::after {
+    margin-bottom: 3px;
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1;
+    /* Additional styling as needed */
+}
+  .image-button-example:hover::after {
+    margin-bottom: 3px;
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1;
+    /* Additional styling as needed */
+}
+  .segunda-imagem{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    margin-top: -3rem;
+    color: #333; 
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .primeira-imagem{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    margin-top: -3rem;
+    color: #333; 
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 .legenda{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 38rem;
+    justify-content:center;
+    /* flex-direction: column; */
+    max-width: 90rem;
     margin: 0 auto;
     padding: 1rem; 
-    border: 1px solid #333; 
-    text-align: center;
-    border-radius: 50px;
-    background-color: #f5f5f5; 
     color: #333; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0.1, 0.1);
-    margin-bottom: 20px !important;
+    /* margin-bottom: 20px !important; */
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+.legenda2{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    /* flex-direction: row; */
+    max-width: 48rem;
+    min-height: 155px;
+    margin: 0 auto;
+    padding: 1rem; 
+    color: #333; 
+    margin-top: -20px !important;
+    font-size: var(--16px);
+    
+}
+.legenda2combotao{
+  min-height: 155px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    /* flex-direction: row; */
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 1rem; 
+    color: #333; 
+    margin-top: -20px !important;
+    font-size: var(--16px);
+    
 }
 @media (max-width: 640px) {
     .legenda {
-        max-width: 24rem;
+        text-align: center;
+        /* margin-left: -1rem; */
     }
+    .legenda2 { 
+        min-height: 300px;
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        font-weight:lighter
+    }
+    .legenda2combotao {
+      min-height: 300px;
+        text-align: left;
+        margin-left: -1rem;
+    }
+    .primeira-imagem{
+    display: flex;
+    justify-content: center;
+    margin-left: -1rem;
+    font-size: 1.3rem;
+  }
+    .segunda-imagem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+  }
 }
 .container {
   margin: 0 auto;
@@ -207,6 +348,18 @@ $: {
 
 .image-button {
   position: absolute;
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  border: none;
+  color: white;
+  font-size: 20px; 
+}
+.image-button-example {
+  /* position: absolute; */
   width: 30px; 
   height: 30px; 
   border-radius: 50%;
