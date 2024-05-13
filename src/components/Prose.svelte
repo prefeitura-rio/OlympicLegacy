@@ -67,7 +67,7 @@
 				<iframe id="teste" allow="fullscreen" allowfullscreen height="400" src="https://streamable.com/e/3cyhpg?muted=1&nocontrols=1&autoplay=1" width="670" style="border:none;"></iframe>
 
 				<p class="image-caption">
-					Os cariocas poderão nadar na mesma piscina que o atleta Michael Phelps nadou nas Olimpíadas.
+					Cariocas will be able to swim in the same pool that athlete Michael Phelps swam in during the Olympics.
 				</p> 
 				<!-- {:else if text.value == "foto1.1"}
 				<img style="padding-top: 5rem;" src={est_aqua2} alt="Foto" />
@@ -84,13 +84,13 @@
 			{:else if text.value == "foto3"}
 			<img style="padding-top: 5rem;" src="assets/yardsale/art/ibc.jpg" alt="Foto" />
 				<p class="image-caption">
-					Fachada do IBC <br />(Foto: Ricardo Cassiano/Prefeitura do Rio)
+					IBC Facade (Photo: Ricardo Cassiano / Rio City Hall)
 				</p>
 			
 			{:else if text.value == "foto4"}
 			<img style="padding-top: 5rem;" src={tg} alt="Foto" />
 			<p class="image-caption">
-				Terminal Gentileza <br />(Foto: Marcelo Piu/Prefeitura do Rio)
+				Gentileza Terminal (Photo: Marcelo Piu / Rio City Hall)
 			</p>
 			{:else if text.value == "foto2"}
 				<div class="image-container">

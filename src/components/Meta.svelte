@@ -1,8 +1,8 @@
 <script>
-	export let title = "Sem elefantes brancos";
-	export let description = "Legado Olímpico";
+	export let title = "No White Elephants. Legacy, Right?";
+	export let description = "Olympic legacy";
 	export let url = "https://prefeitura-rio.github.io/LegadoOlimpico/";
-	export let keywords = "Legado olímpico, elefante branco, arquitetura nomade";
+	export let keywords = "Olympic legacy, No White Elephants, nomad architecture";
 	export let preloadFont = [];
 </script>
 

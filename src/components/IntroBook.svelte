@@ -13,9 +13,9 @@
 
 <div class="container">
   <div class="title">
-    <h2 id="sem_elefantes">Sem elefantes brancos</h2>
+    <h2 id="sem_elefantes">No White Elephants.<br> Legacy, Right?</h2>
 		<!-- <h1 style="font-size:90px;font-weight:bold"></h1> -->
-    <h6 style="font-size:20px;">Explorando a Arquitetura Nômade nas Olimpíadas do Rio 2016</h6>
+    <h6 style="font-size:20px;">Exploring Nomadic Architecture at the Rio 2016 Olympics</h6>
   </div>
 
   <!-- <div class="css-grid">

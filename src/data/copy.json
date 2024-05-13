@@ -1,5 +1,5 @@
 {
-  "title": "Legado Olímpico",
+  "title": "Olympic Legacy",
   "titleBreaks": "What does <br> a happily <br> ever after <br> look like?",
  
   "lookBackOverflow_750": [
@@ -89,24 +89,24 @@
   "lookBackA": [
     {
       "type": "text",
-      "value": "Desde o início do projeto para sediar os Jogos Olímpicos Rio 2016, a Prefeitura do Rio teve como objetivo garantir a eficiência de forma simples e econômica, deixando um \"<span style='font-weight:bold;'> legado na infraestrutura, serviços, transporte e educação </span>\" para a cidade. <br><br> "   
+      "value": "Since the beginning of the project to host the Rio 2016 Olympic Games, the Rio City Hall aimed to ensure efficiency in a simple and economical way, leaving <b> a legacy in infrastructure, services, transportation, and education </b> for the city. <br><br>"   
      },
     {
       "type": "text",
-      "value": "Para alcançar esse objetivo, a preparação para os Jogos foi utilizada para acelerar mudanças há muito esperadas, capazes de melhorar a qualidade de vida dos moradores e tornar a cidade mais integrada e justa. <br><br>"
+      "value": "To achieve this goal, the preparation for the Games was used to accelerate long-awaited changes, capable of improving the quality of life for residents and making the city more integrated and just.<br><br>"
     },
     {
       "type": "text",
-      "value":"Por aqui, não houve <span style='font-weight:bold;'> “Elefantes Brancos”</span>, expressão comumente usada para descrever estádios construídos para grandes eventos que, após o término, acabam se tornando problemas. Estas estruturas acabam se tornando ociosas e virando problemas. <br><br>"
+      "value":"Here, there were no <b>“White Elephants”</b>, a term commonly used to describe stadiums built for large events that, after their conclusion, become problems. These structures often become idle, abandoned by the government, which either cannot or does not know how to manage these spaces.<br><br>"
     },
     {
       "type": "text",
-      "value":"No entanto, no Rio de Janeiro, a história foi diferente. A Prefeitura do Rio inovou ao adotar a chamada <span style='font-weight:bold;'>arquitetura nômade</span> no projeto olímpico. <br><br>"
+      "value":"However, in Rio de Janeiro, the story was different.The Rio City Hall innovated by adopting the so-called <b>nomadic architecture </b> in much of the Olympic project. <br><br> This approach, based on the idea of a nomadic people without fixed housing, which constantly moves, foresees the reuse of installations for other purposes after the events."
     },
    
     {
       "type": "text",
-      "value": "Essa escolha arquitetônica gerou <span style='font-weight:bold;'>impactos positivos</span> ao reutilizar as edificações, garantindo que as estruturas fossem verdadeiramente aproveitadas pela população, além de criar milhares de empregos diretos e indiretos.<br><br><br>"
+      "value": "This architectural choice had <b>positive impacts</b>, not only environmental, by reusing buildings and reducing environmental impact, but also social, by ensuring that the structures were truly beneficial to the population, as well as economic benefits, by creating thousands of direct and indirect jobs."
     },
     {
       "type": "text",
@@ -114,13 +114,13 @@
     },
     {
       "type": "text",
-      "value": "Assim como um brinquedo de montar e desmontar, a arquitetura nômade permitiu com que três grandes estruturas feitas para os Jogos pudessem se transformar em legado para a cidade. Localizadas no Parque Olímpico na  Barra da Tijuca, estavam a <span style='font-weight:bold;'>Arena do Futuro</span>, instalação desportiva usada para o handebol nas Olimpíadas e goalball no Jogos Paraolímpicos de 2016; o <span style='font-weight:bold;'>Estádio Aquático</span>, sede da natação e polo aquático das competições e o <span style='font-weight:bold;'>Centro Internacional de Transmissão</span> (International Broadcasting Center - IBC), local utilizado pela imprensa para transmissão dos Jogos.<br><br>",
+      "value": "Thus, like the toy where pieces with different shapes and colors become new forms when combined, nomadic architecture allowed three large structures built for the Games to become a legacy for the city. The structures are: the <b>Future Arena</b>, located in Barra da Tijuca, a sports facility used for handball at the Olympics and goalball at the 2016 Paralympic Games; the <b>Aquatic Stadium</b>, the venue for swimming and water polo competitions; and the <b>International Broadcasting Center (IBC)</b>, used by the press for broadcasting the Games.<br><br>",
       "card":"card05"
     },
    
     {
       "type": "text",
-      "value": "O plano de reaproveitamento das estruturas provisórias, paralisado em 2017 pela gestão anterior, foi retomado novamente em 2021 pela atual administração. Desta forma, a Prefeitura vem conseguindo aproveitar arquibancadas, louças, paredes de drywall, fachadas, coberturas, piscina e pilares, para a criação de novas estruturas para os cariocas.<br><br>"
+      "value": "The plan for reusing the temporary structures, halted in 2017 by the previous administration, was resumed again in 2021 by the current administration. In this way, the City Hall has been able to reuse bleachers, fixtures, drywall walls, facades, roofs, swimming pools, and pillars, to create new structures for cariocas."
     }
   ],
   "lookBackB": [
@@ -138,16 +138,16 @@
   "raunchinessText": [
     {
       "type": "text",
-      "value": "<br><br><br> Alguns dos materiais utilizados na Arena do Futuro também estão sendo  destinados a outros dois projetos. "
+      "value": "<br><br><br> Some of the materials used in the Future Arena are also being allocated to two other projects. "
     
     },
     {
       "type": "text",
-      "value": "<br>Já a <span style='font-weight:bold;'>Escola de Samba Lins Imperial</span>, localizada no bairro de Lins de  Vasconcelos, recebeu a doação de isolantes acústicos para corrigir problemas de vazamento de som em sua sede."
+      "value": "<br>The <b>Lins Imperial Samba School</b>, located in the Lins de Vasconcelos neighborhood, received the donation of acoustic insulation to correct sound leakage problems in its headquarters.<br><br>"
     },
     {
       "type": "text",
-      "value": "<br>O <span style='font-weight:bold;'>Estádio Luso-Brasileiro</span>,  que já recebeu as estruturas das arquibancadas e da cobertura. A doação permitirá aumentar a capacidade de público do local, que é de 5.044 para 16 mil espectadores. A retirada, transporte e obra serão custeadas pelo próprio clube.<br><br>",
+      "value": "The <b>Luso-Brasileiro Stadium</b>, which has already received the structures of the bleachers and roof. The donation will allow increasing the capacity of the venue from 5,044 to 16,000 spectators. The removal, transportation, and work will be funded by the club itself.",
       "card":"card01"
     }
     
@@ -306,12 +306,12 @@
   "raceText": [
     {
       "type": "text",
-      "value": " O <span style='font-weight:bold;'>Estádio Aquático Olímpico</span>, uma das estruturas pensadas com o conceito de arquitetura nômade para as Olimpíadas Rio 2016, também já começou a ser desmontado para dar início a outros projetos. <br><br>A mesma piscina utilizada nas competições será montada no \"<span style='font-weight:bold;'> Parque Oeste</span>\". Os frequentadores poderão usar a piscina onde o americano Michael Phelps, um dos maiores atletas da história, nadou nos Jogos. Maior medalhista da história da Olimpíada (23 ouros, três pratas e dois bronzes), o atleta conquistou seis delas nesta mesma piscina que ficará disponível para todos os cariocas.<br<br>"  ,
+      "value": "The Olympic Aquatic Stadium, one of the structures designed with the concept of nomadic architecture for the Rio 2016 Olympics, has also begun to be dismantled to begin other projects. The same pool used in the competitions will be set up in Parque Oeste. Visitors will be able to use the pool where the American Michael Phelps, one of the greatest athletes in history, swam in the Games. The athlete, the biggest medalist in Olympic history (23 golds, three silvers, and two bronzes), won six of them in this same pool that will be available to all cariocas."  ,
       "card":"card06"
     },
       {
       "type": "text",
-      "value": "<br>O parque ficará em um terreno de mais de 234 mil metros quadrados na Avenida Cesário de Melo, em Inhoaíba. O megaparque será sustentável, preservando e oferecendo novas áreas verdes para a cidade, com equipamentos culturais e esportivos. Entre as benfeitorias, estão a Vila Olímpica, Nave do Conhecimento, quadras poliesportivas, espaço ecumênico, pista de skate, ginásio coberto, palco, além de uma escola para cerca de 800 alunos.<br><br>"
+      "value": "<br>The park will be on a plot of more than 234 thousand square meters on Avenida Cesário de Melo, in Inhoaíba. The mega-park will be sustainable, preserving and offering new green areas for the city, with cultural and sports facilities. Among the improvements are the Olympic Village, Nave do Conhecimento, sports courts, ecumenical space, skate park, indoor gymnasium, stage, as well as a school for 720 students and a Child Development Space for about 30 children in full-time hours.<br><br>"
     },
     {
       "type": "text",
@@ -319,15 +319,15 @@
     },
     {
       "type": "text",
-      "value": "<br>Ainda serão construídos quiosques e um espaço destinado a oficinas. O projeto prevê o cultivo de 1.100 árvores e o plantio de jardins em uma área de aproximadamente 34 mil metros quadrados. A área reflorestada será de 61,8 mil metros quadrados."
+      "value": "<br>Kiosks and a space for workshops will also be built. The project foresees the cultivation of 1,100 trees and the planting of gardens in an area of approximately 34 thousand square meters. The reforested area will be 61.8 thousand square meters."
     },
     {
       "type": "text",
-      "value": "<br>Outra parte das estruturas da instalação que recebeu as provas de natação dos Jogos Olímpicos e Paralímpicos Rio 2016 foi doada para o \"<span style='font-weight:bold;'>Bangu Atlético Clube </span>\"."
+      "value": "<br>Another part of the structures of the installation that hosted the swimming events of the Rio 2016 Olympic and Paralympic Games was donated to Bangu Atlético Clube."
     },
     {
       "type": "text",
-      "value": "O clube da Zona Oeste recebeu materiais que vão permitir fazer a cobertura da arquibancada, da área de transmissão, do estacionamento e das áreas de acesso aos banheiros e vestiários do Estádio Proletário Guilherme da Silveira Filho, o Moça Bonita. O Bangu ainda irá revitalizar as coberturas do estacionamento e das arquibancadas da quadra e o telhado do salão nobre de sua sede social."
+      "value": "The club from the West Zone received materials that will allow covering the bleachers, the transmission area, the parking lot, and the access areas to the bathrooms and dressing rooms of the Proletário Guilherme da Silveira Filho Stadium, Moça Bonita. Bangu will also revitalize the parking lot and bleacher covers of the court and the roof of the main hall of its social headquarters."
     },
 
     {
@@ -336,11 +336,11 @@
     },
     {
       "type": "text",
-      "value": "<br><br>E o mais novo terminal de transportes da cidade, o Terminal Intermodal Gentileza (TIG), inaugurado em fevereiro de 2024, também é produto do legado olímpico. Cerca de 700 toneladas de estruturas de aço do Centro Internacional de Transmissão (International Broadcasting Center - IBC) foram utilizadas para a construção do Gentileza."
+      "value": "<br><br>And the newest transportation terminal in the city, the Gentileza Intermodal Terminal (TIG), inaugurated in February 2024, is also a product of the Olympic legacy. Approximately 700 tons of steel structures from the International Broadcasting Center (IBC) were used in the construction of Gentileza."
     },
     {
       "type": "text",
-      "value": "<br>O IBC recebeu mais de dez mil profissionais de imprensa que trabalharam no prédio onde funcionavam estúdios e eram geradas as imagens das transmissões oficiais dos Jogos."
+      "value": "<br>The IBC received more than ten thousand press professionals, who worked in the building where studios were located and the images of the official broadcasts of the Games were generated."
     },
     {
       "type": "text",
@@ -348,7 +348,7 @@
     },
     {
       "type": "text",
-      "value": "<br><br>O Terminal Gentileza foi projetado para ser o ponto de chegada ao Rio do BRT Transbrasil, que tem demanda mínima estimada em 150 mil pessoas transportadas diariamente. No local, os passageiros podem pegar ônibus alimentadores para diversas regiões da cidade, além do VLT — que foi estendido em cerca de 700 metros a partir da Rodoviária Novo Rio — para circular no Centro do Rio e chegar à Central do Brasil, Praça XV e Aeroporto Santos Dumont e Galeão."
+      "value": "<br><br>The Gentileza Terminal was designed to be the arrival point in Rio for the BRT Transbrasil, with a minimum estimated demand of 150 thousand people transported daily. At the location, passengers can take feeder buses to various regions of the city, as well as the VLT — which was extended by about 700 meters from the Novo Rio Bus Station — to circulate in downtown Rio and reach Central do Brasil, Praça XV and Santos Dumont and Galeão airports."
     },
     {
       "type": "text",
@@ -356,7 +356,7 @@
     },
     {
       "type": "text",
-      "value": "<br><br><span style='font-weight:bold;'> Visto pelo mundo, projetado para quem vive aqui.</span> É assim que a Prefeitura do Rio vem executando as obras do legado olímpico na cidade. Os jogos terminaram em 2016 mas a transformação da cidade continua em andamento.<br><br><br>"
+      "value": "Seen by the world, designed for those who live here. This is how the Rio City Hall has been executing the works of the Olympic legacy in the city. Ensuring that heritage is guaranteed for all cariocas.<br><br<br>"
     },
     {
       "type": "text",

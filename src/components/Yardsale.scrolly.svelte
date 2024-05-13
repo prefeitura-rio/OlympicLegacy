@@ -540,7 +540,7 @@ onMount(() => {
 								</p>
 								{:else if text == "nova-escola"}
 					
-									<p>E assim nasce uma <span style="font-weight:bold">escola nova </span>para os cariocas, com o ensino mais inovador do país!</p>
+									<p>And so arises a <span style="font-weight:bold">new school </span>for the people of Rio de Janeiro, offering the most innovative education in Brazil.</p>
 								{:else}
 								<p>{text}</p>
 							{/if}

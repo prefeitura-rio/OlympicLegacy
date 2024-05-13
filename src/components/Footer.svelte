@@ -7,7 +7,7 @@
 
 
  <footer class="footer">
-	<h3 id="autores">Autores</h3>
+	<h3 id="autores">Authors</h3>
 	<h6>Caio Jacintho</h6>
 	<h6>Judite Cypreste</h6>
 	<h6>Pedro Meneghel</h6>
@@ -15,7 +15,7 @@
   
 	<br>
 	<br>
-	<h3 id="agradecimentos">Agradecimentos</h3>
+	<h3 id="agradecimentos">Acknowledgements</h3>
 	<h6>Cláudia Escarlate</h6>
 	<h6>João Carabetta</h6>
 	<h6>Joice Nascimento</h6>
@@ -26,7 +26,7 @@
 
 	<br>
 	<br>
-	<h3 id="prefeito">Prefeito</h3>
+	<h3 id="prefeito">Mayor</h3>
 	<h6>Eduardo Paes</h6>
 	<div class="footer_logo">
 		<img class="photo_logo" src="assets/yardsale/art/logo_preto_horizontal.png" alt="Foto" />

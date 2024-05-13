@@ -94,7 +94,8 @@
 </script>
 
 <section id="lookback">
-    <p class="prose">Produzido pelo <a href="https://www.dados.rio/" target="_blank" class="custom-link">Escritório de Dados</a> da Prefeitura da Cidade do Rio de Janeiro</p>
+    <p class="prose"> Produced by <a href="https://www.dados.rio/" target="_blank" class="custom-link">the Data Office</a>  of the City Hall of Rio de Janeiro</p>
+    
     <Prose copy={copy.lookBackA}/>
 </section>
 

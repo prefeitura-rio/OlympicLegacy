@@ -47,28 +47,28 @@
   }
 
     let scrolly1 = [
-        "A Arena do Futuro recebeu as competições de Handebol das Olimpíadas e de Goalball nas Paralimpíadas de 2016",
+        "The Future Arena hosted the Handball competitions at the Olympics and Goalball at the Paralympics in 2016.",
         "",
         "",
-        "E ela não recebeu este nome à toa: o seu nome tem tudo a ver com aquilo em que ela estava destinada a se transformar. ",
+        "And it was not named this way for nothing: its name has everything to do with what it was intended to become. ",
         "",
         "",
-        "Em março de 2022, iniciou-se a desmontagem da Arena para ser transformada em quatro escolas na Zona Oeste.",
+        "In March 2022, the dismantling of the Arena began to be transformed into four schools in the West Zone.",
         "",
         "",
-        "Da Arena do Futuro foram aproveitados materiais como o breeze (fachada das arenas), divisórias e louças.",
+        "Materials such as breeze (arena facade), partitions, and dishes were reused from the Future Arena.",
         "",
         "",
-        "Dois dos quatro ginásios previstos já foram inaugurados: o GET (Ginásio Experimental Tecnológico) José Mauro de Vasconcelos, em Bangu, e o GET Emiliano Galdino, em Santa Cruz.",
+        "Two of the four planned gyms have already been inaugurated: the GET (Technological Experimental Gymnasium) José Mauro de Vasconcelos, in Bangu, and the GET Emiliano Galdino, in Santa Cruz.",
         "",
         "",
-        "As outras duas escolas, que estão sendo construídas no bairro de Campo Grande e Rio das Pedras, têm previsão de inauguração para o primeiro semestre deste ano.",
+        "The other two schools, which are being built in the Campo Grande and Rio das Pedras neighborhoods, are scheduled to open in the first semester of this year.",
         "",
         "",
-        "As unidades de ensino possuem o modelo de escola pública mais inovador do país, que segue a abordagem STEAM (Ciência, Tecnologia, Engenharia, Artes e Matemática).",
+        "The educational units have the most innovative public school model in the country, following the STEAM approach (Science, Technology, Engineering, Arts, and Mathematics).",
         "",
         "",
-        "Esse modelo investe na qualificação da educação integral e desenvolve uma aprendizagem baseada em projetos, atividades mão na massa e recursos que promovam a cultura digital.",
+        "This model invests in the qualification of integral education and develops project-based learning, hands-on activities, and resources that promote digital culture.",
         "",
         "",
         "",
@@ -115,30 +115,30 @@
 
 $: {
     if (currentImageEsquerda === f01_esquerda) {
-      legenda = 'Veja que fim levou a Arena do Futuro';
-      legenda2 = 'Clique nos botões abaixo';
-      legendaEsquerda = 'Arena do Futuro';
-      legendaDireita = 'Ginásio Experimental Tecnológico';
+      legenda = 'See what happened to the Arena of the Future';
+      legenda2 = 'Click on the buttons below';
+      legendaEsquerda = 'Arena of the Future';
+      legendaDireita = 'Experimental Technological Gymnasiums';
     } else if (currentImageEsquerda === f05_esquerda) {
-      legenda = 'Arquibancadas';
-      legenda2 = 'Abaixo vemos as arquibancadas da Arena do Futuro. Elas foram concebidas numa estrutura de concreto pré-moldado que permite a montagem e desmontagem, assim como a estrutura metálica da cobertura. Esses elementos foram doados ao Estádio Luso-Brasileiro, de propriedade Portuguesa-RJ, na Ilha do Governador. A doação permitirá aumentar a capacidade de público do local que é de 5.044 para 16 mil espectadores.';
-      legendaEsquerda = 'Arena do Futuro';
+      legenda = 'Bleachers';
+      legenda2 = "Below we see the bleachers of the Arena of the Future. They were designed in a precast concrete structure that allows for assembly and disassembly, similar to the metal structure of the roof. These elements were donated to the Luso-Brasileiro Stadium, owned by Portuguesa-RJ, on Ilha do Governador. The donation will allow increasing the venue's capacity from 5,044 to 16,000 spectators.";
+      legendaEsquerda = 'Arena of the Future';
       legendaDireita = 'Estádio Luso-Brasileiro';
     } else if (currentImageEsquerda === f04_esquerda) {
-      legenda = 'Fachada';
-      legenda2 = 'Na imagem abaixo vemos em destaque o brise que compõe a fachada da Arena do Futuro. Esse elemento permite a entrada de ventilação natural ao mesmo tempo que proporciona uma proteção da incidência solar. Os brises foram reaproveitados em quatro escolas (Ginásios Experimentais Tecnológicos), situadas nos bairros de Bangu, Campo Grande, Rio das Pedras e Santa Cruz.';
-      legendaEsquerda = 'Arena do Futuro';
-      legendaDireita = 'Ginásio Experimental Tecnológico';
+      legenda = 'Facade';
+      legenda2 = 'In the image below, we highlight the brise that composes the facade of the Arena of the Future. This element allows natural ventilation while providing protection from solar incidence. The brises were reused in four schools (Experimental Technological Gymnasiums), located in the neighborhoods of Bangu, Campo Grande, Rio das Pedras, and Santa Cruz.';
+      legendaEsquerda = 'Arena of the Future';
+      legendaDireita = 'Experimental Technological Gymnasiums';
     } else if (currentImageEsquerda === f03_esquerda) {
-      legenda = 'Divisórias';
-      legenda2 = 'As divisórias da Arena do Futuro são paredes internas dos ambientes, compostas por uma subestrutura metálica e um fechamento em gesso acartonado (drywall), permitindo assim que sua instalação seja feita por meio de encaixes e parafusos. Estas paredes foram reaproveitadas em quatro escolas (Ginásios Experimentais Tecnológicos), situadas nos bairros de Bangu, Campo Grande, Rio das Pedras e Santa Cruz.';
-      legendaEsquerda = 'Arena do Futuro';
-      legendaDireita = 'Ginásio Experimental Tecnológico';
+      legenda = 'Partitions';
+      legenda2 = 'The partitions of the Arena of the Future are internal walls of the spaces, composed of a metal substructure and a closure in plasterboard (drywall), allowing their installation to be done through fittings and screws. These walls were reused in four schools (Experimental Technological Gymnasiums), located in the neighborhoods of Bangu, Campo Grande, Rio das Pedras, and Santa Cruz.';
+      legendaEsquerda = 'Arena of the Future';
+      legendaDireita = 'Experimental Technological Gymnasiums';
     } else if (currentImageEsquerda === f02_esquerda) {
-      legenda = 'Louças';
-      legenda2 = 'As louças dos banheiros da Arena do Futuro, como pias, privadas e mictórios, foram reaproveitados em quatro escolas (Ginásios Experimentais Tecnológicos), situadas nos bairros de Bangu, Campo Grande, Rio das Pedras e Santa Cruz.';
-      legendaEsquerda = 'Arena do Futuro';
-      legendaDireita = 'Ginásio Experimental Tecnológico';
+      legenda = 'Fixtures';
+      legenda2 = 'The bathroom fixtures of the Arena of the Future, such as sinks, toilets, and urinals, were reused in four schools (Experimental Technological Gymnasiums), located in the neighborhoods of Bangu, Campo Grande, Rio das Pedras, and Santa Cruz.';
+      legendaEsquerda = 'Arena of the Future';
+      legendaDireita = 'Experimental Technological Gymnasiums';
     } else {
       legenda = 'legenda padrão';
     }
@@ -157,11 +157,11 @@ $: {
         {#if id == "illustration"}
         <div class="legendas">
         <div class="legenda"> {legenda}</div>
-        {#if legenda2 == 'Clique nos botões abaixo' }
+        {#if legenda2 == 'Click on the buttons below' }
         <div class="legenda2combotao"> 
-          <span>Clique nos botões &nbsp&nbsp </span>
+          <span>Click on the buttons &nbsp&nbsp </span>
           <button data-tooltip="Botão" class="image-button-example">+</button>
-          <span>&nbsp &nbsp abaixo</span>
+          <span>&nbsp &nbsp below</span>
         </div>
         {:else}
         <div class="legenda2"> {legenda2}</div>
@@ -174,15 +174,15 @@ $: {
                   <p style="display:flex;align-items:center">{legendaEsquerda}</p>
                 </div>
                <!--reseta / images iniciais-->
-                <!-- <button data-tooltip="Clique nos botões" class="image-button" style="top: 68%; left: 63%;" on:click={() => (currentImageEsquerda = f01_esquerda) && (currentImageDireita = f01_direita)}>+</button> -->
+                <!-- <button data-tooltip="Click on the buttons" class="image-button" style="top: 68%; left: 63%;" on:click={() => (currentImageEsquerda = f01_esquerda) && (currentImageDireita = f01_direita)}>+</button> -->
                 <!--arquibancada-->
-                <button data-tooltip="Arquibancadas" class="image-button" style="top: 53%; left: 40%;" on:click={() => (currentImageEsquerda = f05_esquerda) && (currentImageDireita = f05_direita)}>+</button>
-                <!--fachada-->
-                <button data-tooltip="Fachada" class="image-button" style="top: 65%; left: 10%;" on:click={() => (currentImageEsquerda = f04_esquerda) && (currentImageDireita = f04_direita)}>+</button>
+                <button data-tooltip="Bleachers" class="image-button" style="top: 53%; left: 40%;" on:click={() => (currentImageEsquerda = f05_esquerda) && (currentImageDireita = f05_direita)}>+</button>
+                <!--Facade-->
+                <button data-tooltip="Facade" class="image-button" style="top: 65%; left: 10%;" on:click={() => (currentImageEsquerda = f04_esquerda) && (currentImageDireita = f04_direita)}>+</button>
                 <!--drywall-->
-                <button data-tooltip="Divisórias" class="image-button" style="top: 77%; left: 30%;" on:click={() => (currentImageEsquerda = f03_esquerda) && (currentImageDireita = f03_direita)}>+</button>
-               <!--louças-->
-                <button data-tooltip="Louças" class="image-button" style="top: 53%; left: 90%;" on:click={() => (currentImageEsquerda = f02_esquerda) && (currentImageDireita = f02_direita)}>+</button>
+                <button data-tooltip="Partitions" class="image-button" style="top: 77%; left: 30%;" on:click={() => (currentImageEsquerda = f03_esquerda) && (currentImageDireita = f03_direita)}>+</button>
+               <!--Fixtures-->
+                <button data-tooltip="Fixtures" class="image-button" style="top: 53%; left: 90%;" on:click={() => (currentImageEsquerda = f02_esquerda) && (currentImageDireita = f02_direita)}>+</button>
             </div>
             <div class="image-container">
             <img src={currentImageDireita} alt="currentImage" in:fade={{ delay: 0 }} out:fade />
